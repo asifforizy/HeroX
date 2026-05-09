@@ -1,4 +1,8 @@
 import React from 'react';
+import Logo from '../../assets/logo.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FaGithub } from 'react-icons/fa';
+import { NavLink } from 'react-router';
 
 const Navbar = () => {
     return (
@@ -11,37 +15,26 @@ const Navbar = () => {
                         </div>
                         <ul
                             tabIndex="-1"
-                            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                            <li><a>Item 1</a></li>
-                            <li>
-                                <a>Parent</a>
-                                <ul className="p-2">
-                                    <li><a>Submenu 1</a></li>
-                                    <li><a>Submenu 2</a></li>
-                                </ul>
-                            </li>
-                            <li><a>Item 3</a></li>
+                            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow gap-5">
+                            <NavLink to="/"><a>Home</a></NavLink>
+                            <NavLink to="/apps"><a>Apps</a></NavLink>
+                            <NavLink to="/installation"><a>Installation</a></NavLink>
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl">daisyUI</a>
+                    <div className='flex items-center '>
+                        <img src={Logo} alt="logo" className='w-10' />
+                        <a className="btn btn-ghost text-xl">HeroX</a>
+                    </div>
                 </div>
                 <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1">
-                        <li><a>Item 1</a></li>
-                        <li>
-                            <details>
-                                <summary>Parent</summary>
-                                <ul className="p-2 bg-base-100 w-40 z-1">
-                                    <li><a>Submenu 1</a></li>
-                                    <li><a>Submenu 2</a></li>
-                                </ul>
-                            </details>
-                        </li>
-                        <li><a>Item 3</a></li>
+                    <ul className="menu menu-horizontal px-1 gap-10">
+                        <NavLink to="/"><a>Home</a></NavLink>
+                        <NavLink to="/apps"><a>Apps</a></NavLink>
+                        <NavLink to="/installation"><a>Installation</a></NavLink>
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn">Button</a>
+                    <a className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white px-6 py-2 rounded-lg font-semibold shadow-md hover:scale-105 transition-all duration-300"><FaGithub className='text-xl'></FaGithub>  Contribute</a>
                 </div>
             </div>
         </div>
