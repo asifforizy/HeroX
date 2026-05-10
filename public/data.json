@@ -1,0 +1,272 @@
+[
+  {
+    "image": "app1.png",
+    "title": "Task Master",
+    "companyName": "HeroX",
+    "id": 1,
+    "description": "A powerful task management app to organize your daily work efficiently.",
+    "size": 45,
+    "reviews": 1240,
+    "ratingAvg": 4.5,
+    "downloads": 12000000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 35 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 665 }
+    ]
+  },
+  {
+    "image": "app2.png",
+    "title": "Chat Sphere",
+    "companyName": "HeroX",
+    "id": 2,
+    "description": "A real-time messaging app with smooth UI and secure encryption.",
+    "size": 58,
+    "reviews": 2200,
+    "ratingAvg": 4.7,
+    "downloads": 35000000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 1385 }
+    ]
+  },
+  {
+    "image": "app3.png",
+    "title": "Fitness Pro",
+    "companyName": "HeroX",
+    "id": 3,
+    "description": "Track workouts, calories, and stay fit with AI-based fitness plans.",
+    "size": 75,
+    "reviews": 3100,
+    "ratingAvg": 4.6,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 1880 }
+    ]
+  },
+  {
+    "image": "app4.png",
+    "title": "Weather Now",
+    "companyName": "HeroX",
+    "id": 4,
+    "description": "Live weather updates with accurate forecasts and alerts.",
+    "size": 32,
+    "reviews": 980,
+    "ratingAvg": 4.3,
+    "downloads": 18000000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 495 }
+    ]
+  },
+  {
+    "image": "app5.png",
+    "title": "Finance Tracker",
+    "companyName": "HeroX",
+    "id": 5,
+    "description": "Manage your income, expenses, and savings with smart analytics.",
+    "size": 60,
+    "reviews": 2100,
+    "ratingAvg": 4.4,
+    "downloads": 27000000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 1020 }
+    ]
+  },
+  {
+    "image": "app6.png",
+    "title": "Study Hub",
+    "companyName": "HeroX",
+    "id": 6,
+    "description": "All-in-one learning platform for students with notes and quizzes.",
+    "size": 80,
+    "reviews": 1500,
+    "ratingAvg": 4.2,
+    "downloads": 22000000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 55 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 765 }
+    ]
+  },
+  {
+    "image": "app7.png",
+    "title": "Music Flow",
+    "companyName": "HeroX",
+    "id": 7,
+    "description": "Stream and discover music with personalized recommendations.",
+    "size": 90,
+    "reviews": 4500,
+    "ratingAvg": 4.8,
+    "downloads": 80000000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 2910 }
+    ]
+  },
+  {
+    "image": "app8.png",
+    "title": "Food Express",
+    "companyName": "HeroX",
+    "id": 8,
+    "description": "Order food quickly from nearby restaurants with live tracking.",
+    "size": 55,
+    "reviews": 3300,
+    "ratingAvg": 4.5,
+    "downloads": 6000000,
+    "ratings": [
+      { "name": "1 star", "count": 55 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 1000 },
+      { "name": "5 star", "count": 1975 }
+    ]
+  },
+  {
+    "image": "app9.png",
+    "title": "Travel Buddy",
+    "companyName": "HeroX",
+    "id": 9,
+    "description": "Plan trips, book hotels, and explore destinations easily.",
+    "size": 85,
+    "reviews": 1900,
+    "ratingAvg": 4.3,
+    "downloads": 3100000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 45 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 1010 }
+    ]
+  },
+  {
+    "image": "app10.png",
+    "title": "Photo Studio",
+    "companyName": "HeroX",
+    "id": 10,
+    "description": "Edit photos with filters, effects, and AI enhancement tools.",
+    "size": 110,
+    "reviews": 2750,
+    "ratingAvg": 4.6,
+    "downloads": 4200000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 1570 }
+    ]
+  },
+  {
+    "image": "app11.png",
+    "title": "News Daily",
+    "companyName": "HeroX",
+    "id": 11,
+    "description": "Get real-time news updates from trusted global sources.",
+    "size": 40,
+    "reviews": 1600,
+    "ratingAvg": 4.1,
+    "downloads": 2500000,
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 605 }
+    ]
+  },
+  {
+    "image": "app12.png",
+    "title": "Game Arena",
+    "companyName": "HeroX",
+    "id": 12,
+    "description": "Play trending mobile games and compete with friends online.",
+    "size": 150,
+    "reviews": 5200,
+    "ratingAvg": 4.9,
+    "downloads": 12000000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 1500 },
+      { "name": "5 star", "count": 3240 }
+    ]
+  },
+  {
+    "image": "app13.png",
+    "title": "Language Learn",
+    "companyName": "HeroX",
+    "id": 13,
+    "description": "Learn new languages through interactive lessons and practice.",
+    "size": 65,
+    "reviews": 1400,
+    "ratingAvg": 4.4,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 580 }
+    ]
+  },
+  {
+    "image": "app14.png",
+    "title": "Smart Home",
+    "companyName": "HeroX",
+    "id": 14,
+    "description": "Control your smart devices and automate your home easily.",
+    "size": 95,
+    "reviews": 2300,
+    "ratingAvg": 4.5,
+    "downloads": 48000000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 1100 }
+    ]
+  },
+  {
+    "image": "app15.png",
+    "title": "AI Assistant",
+    "companyName": "HeroX",
+    "id": 15,
+    "description": "Your smart AI assistant for tasks, reminders, and answers.",
+    "size": 120,
+    "reviews": 6000,
+    "ratingAvg": 4.9,
+    "downloads": 150000000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 1800 },
+      { "name": "5 star", "count": 3620 }
+    ]
+  }
+]
