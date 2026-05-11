@@ -2,7 +2,7 @@ import React from 'react';
 import play from '../../assets/playstore.png';
 import app from '../../assets/appsstore.png';
 import heroImg from '../../assets/hero.png';
-import { useLoaderData } from 'react-router';
+import { NavLink, useLoaderData } from 'react-router';
 import Card from '../Card/Card';
 
 const Home = () => {
@@ -107,11 +107,22 @@ const Home = () => {
                 <h1 className='text-5xl font-bold text-center mt-15 mb-5'>Trending Apps</h1>
                 <p className='text-sm sm:text-base text-[#627382] text-center'>Explore All Trending Apps on the Market developed by us</p>
             </div>
-            <div className="grid grid-cols-4 gap-5">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 my-20">
                 {
-                    data.map(product=> <Card key={data.id} product= {product}></Card> )
+                    data.slice(0, 8).map(product => (
+                        <Card
+                            key={product.id}
+                            product={product}
+                        />
+                    ))
                 }
             </div>
+
+
+            <div className="flex justify-center items-center mb-10" >
+                <NavLink to="apps"><button className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white px-6 py-2 rounded-lg font-semibold shadow-md hover:scale-105 transition-all duration-300 " >Show All</button></NavLink>
+            </div>
+
         </div>
     );
 };

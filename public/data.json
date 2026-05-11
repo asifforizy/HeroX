@@ -1,272 +1,287 @@
 [
   {
-    "image": "app1.png",
-    "title": "Task Master",
-    "companyName": "HeroX",
     "id": 1,
-    "description": "A powerful task management app to organize your daily work efficiently.",
-    "size": 45,
-    "reviews": 1240,
-    "ratingAvg": 4.5,
-    "downloads": 12000000,
-    "ratings": [
-      { "name": "1 star", "count": 20 },
-      { "name": "2 star", "count": 35 },
-      { "name": "3 star", "count": 120 },
-      { "name": "4 star", "count": 400 },
-      { "name": "5 star", "count": 665 }
-    ]
-  },
-  {
-    "image": "app2.png",
-    "title": "Chat Sphere",
-    "companyName": "HeroX",
-    "id": 2,
-    "description": "A real-time messaging app with smooth UI and secure encryption.",
-    "size": 58,
-    "reviews": 2200,
+    "image": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/instagram.png",
+    "title": "Instagram",
+    "companyName": "Meta Platforms",
+    "description": "Share photos and videos, connect with friends, explore trending content and reels.",
+    "size": 78,
+    "reviews": 14200000,
     "ratingAvg": 4.7,
-    "downloads": 35000000,
+    "downloads": 5000000000,
+    "category": "social",
     "ratings": [
-      { "name": "1 star", "count": 25 },
-      { "name": "2 star", "count": 40 },
-      { "name": "3 star", "count": 150 },
-      { "name": "4 star", "count": 600 },
-      { "name": "5 star", "count": 1385 }
+      { "name": "1 star", "count": 120000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 800000 },
+      { "name": "4 star", "count": 3200000 },
+      { "name": "5 star", "count": 9880000 }
     ]
   },
   {
-    "image": "app3.png",
-    "title": "Fitness Pro",
-    "companyName": "HeroX",
-    "id": 3,
-    "description": "Track workouts, calories, and stay fit with AI-based fitness plans.",
-    "size": 75,
-    "reviews": 3100,
-    "ratingAvg": 4.6,
-    "downloads": 50000000,
-    "ratings": [
-      { "name": "1 star", "count": 50 },
-      { "name": "2 star", "count": 70 },
-      { "name": "3 star", "count": 200 },
-      { "name": "4 star", "count": 900 },
-      { "name": "5 star", "count": 1880 }
-    ]
-  },
-  {
-    "image": "app4.png",
-    "title": "Weather Now",
-    "companyName": "HeroX",
-    "id": 4,
-    "description": "Live weather updates with accurate forecasts and alerts.",
-    "size": 32,
-    "reviews": 980,
-    "ratingAvg": 4.3,
-    "downloads": 18000000,
-    "ratings": [
-      { "name": "1 star", "count": 15 },
-      { "name": "2 star", "count": 30 },
-      { "name": "3 star", "count": 90 },
-      { "name": "4 star", "count": 350 },
-      { "name": "5 star", "count": 495 }
-    ]
-  },
-  {
-    "image": "app5.png",
-    "title": "Finance Tracker",
-    "companyName": "HeroX",
-    "id": 5,
-    "description": "Manage your income, expenses, and savings with smart analytics.",
-    "size": 60,
-    "reviews": 2100,
-    "ratingAvg": 4.4,
-    "downloads": 27000000,
-    "ratings": [
-      { "name": "1 star", "count": 40 },
-      { "name": "2 star", "count": 60 },
-      { "name": "3 star", "count": 180 },
-      { "name": "4 star", "count": 800 },
-      { "name": "5 star", "count": 1020 }
-    ]
-  },
-  {
-    "image": "app6.png",
-    "title": "Study Hub",
-    "companyName": "HeroX",
-    "id": 6,
-    "description": "All-in-one learning platform for students with notes and quizzes.",
-    "size": 80,
-    "reviews": 1500,
-    "ratingAvg": 4.2,
-    "downloads": 22000000,
-    "ratings": [
-      { "name": "1 star", "count": 30 },
-      { "name": "2 star", "count": 55 },
-      { "name": "3 star", "count": 150 },
-      { "name": "4 star", "count": 500 },
-      { "name": "5 star", "count": 765 }
-    ]
-  },
-  {
-    "image": "app7.png",
-    "title": "Music Flow",
-    "companyName": "HeroX",
-    "id": 7,
-    "description": "Stream and discover music with personalized recommendations.",
-    "size": 90,
-    "reviews": 4500,
-    "ratingAvg": 4.8,
-    "downloads": 80000000,
-    "ratings": [
-      { "name": "1 star", "count": 60 },
-      { "name": "2 star", "count": 80 },
-      { "name": "3 star", "count": 250 },
-      { "name": "4 star", "count": 1200 },
-      { "name": "5 star", "count": 2910 }
-    ]
-  },
-  {
-    "image": "app8.png",
-    "title": "Food Express",
-    "companyName": "HeroX",
-    "id": 8,
-    "description": "Order food quickly from nearby restaurants with live tracking.",
+    "id": 2,
+    "image": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/whatsapp.png",
+    "title": "WhatsApp",
+    "companyName": "Meta Platforms",
+    "description": "Fast, simple, secure messaging and calling with end-to-end encryption, free worldwide.",
     "size": 55,
-    "reviews": 3300,
-    "ratingAvg": 4.5,
-    "downloads": 6000000,
-    "ratings": [
-      { "name": "1 star", "count": 55 },
-      { "name": "2 star", "count": 70 },
-      { "name": "3 star", "count": 200 },
-      { "name": "4 star", "count": 1000 },
-      { "name": "5 star", "count": 1975 }
-    ]
-  },
-  {
-    "image": "app9.png",
-    "title": "Travel Buddy",
-    "companyName": "HeroX",
-    "id": 9,
-    "description": "Plan trips, book hotels, and explore destinations easily.",
-    "size": 85,
-    "reviews": 1900,
-    "ratingAvg": 4.3,
-    "downloads": 3100000,
-    "ratings": [
-      { "name": "1 star", "count": 25 },
-      { "name": "2 star", "count": 45 },
-      { "name": "3 star", "count": 120 },
-      { "name": "4 star", "count": 700 },
-      { "name": "5 star", "count": 1010 }
-    ]
-  },
-  {
-    "image": "app10.png",
-    "title": "Photo Studio",
-    "companyName": "HeroX",
-    "id": 10,
-    "description": "Edit photos with filters, effects, and AI enhancement tools.",
-    "size": 110,
-    "reviews": 2750,
+    "reviews": 20000000,
     "ratingAvg": 4.6,
-    "downloads": 4200000,
+    "downloads": 5000000000,
+    "category": "social",
     "ratings": [
-      { "name": "1 star", "count": 40 },
-      { "name": "2 star", "count": 60 },
-      { "name": "3 star", "count": 180 },
-      { "name": "4 star", "count": 900 },
-      { "name": "5 star", "count": 1570 }
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 1000000 },
+      { "name": "4 star", "count": 5000000 },
+      { "name": "5 star", "count": 13500000 }
     ]
   },
   {
-    "image": "app11.png",
-    "title": "News Daily",
-    "companyName": "HeroX",
-    "id": 11,
-    "description": "Get real-time news updates from trusted global sources.",
-    "size": 40,
-    "reviews": 1600,
-    "ratingAvg": 4.1,
-    "downloads": 2500000,
+    "id": 3,
+    "image": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/facebook.png",
+    "title": "Facebook",
+    "companyName": "Meta Platforms",
+    "description": "Connect with friends and family, share updates, watch videos, and discover communities.",
+    "size": 92,
+    "reviews": 18000000,
+    "ratingAvg": 4.2,
+    "downloads": 5000000000,
+    "category": "social",
     "ratings": [
-      { "name": "1 star", "count": 35 },
-      { "name": "2 star", "count": 60 },
-      { "name": "3 star", "count": 200 },
-      { "name": "4 star", "count": 700 },
-      { "name": "5 star", "count": 605 }
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 2000000 },
+      { "name": "4 star", "count": 6000000 },
+      { "name": "5 star", "count": 8900000 }
     ]
   },
   {
-    "image": "app12.png",
-    "title": "Game Arena",
-    "companyName": "HeroX",
-    "id": 12,
-    "description": "Play trending mobile games and compete with friends online.",
-    "size": 150,
-    "reviews": 5200,
-    "ratingAvg": 4.9,
-    "downloads": 12000000,
-    "ratings": [
-      { "name": "1 star", "count": 70 },
-      { "name": "2 star", "count": 90 },
-      { "name": "3 star", "count": 300 },
-      { "name": "4 star", "count": 1500 },
-      { "name": "5 star", "count": 3240 }
-    ]
-  },
-  {
-    "image": "app13.png",
-    "title": "Language Learn",
-    "companyName": "HeroX",
-    "id": 13,
-    "description": "Learn new languages through interactive lessons and practice.",
-    "size": 65,
-    "reviews": 1400,
-    "ratingAvg": 4.4,
-    "downloads": 3000000,
-    "ratings": [
-      { "name": "1 star", "count": 20 },
-      { "name": "2 star", "count": 50 },
-      { "name": "3 star", "count": 150 },
-      { "name": "4 star", "count": 600 },
-      { "name": "5 star", "count": 580 }
-    ]
-  },
-  {
-    "image": "app14.png",
-    "title": "Smart Home",
-    "companyName": "HeroX",
-    "id": 14,
-    "description": "Control your smart devices and automate your home easily.",
-    "size": 95,
-    "reviews": 2300,
+    "id": 4,
+    "image": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/youtube.png",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "description": "Watch, upload, and share videos. Discover music, news, gaming, and creators from around the world.",
+    "size": 110,
+    "reviews": 25000000,
     "ratingAvg": 4.5,
-    "downloads": 48000000,
+    "downloads": 5000000000,
+    "category": "video",
     "ratings": [
-      { "name": "1 star", "count": 30 },
-      { "name": "2 star", "count": 70 },
-      { "name": "3 star", "count": 200 },
-      { "name": "4 star", "count": 900 },
-      { "name": "5 star", "count": 1100 }
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 1500000 },
+      { "name": "4 star", "count": 7000000 },
+      { "name": "5 star", "count": 15800000 }
     ]
   },
   {
-    "image": "app15.png",
-    "title": "AI Assistant",
-    "companyName": "HeroX",
-    "id": 15,
-    "description": "Your smart AI assistant for tasks, reminders, and answers.",
-    "size": 120,
-    "reviews": 6000,
-    "ratingAvg": 4.9,
-    "downloads": 150000000,
+    "id": 5,
+    "image": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/spotify.png",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "description": "Stream millions of songs, podcasts, and audiobooks. Discover new music with personalized playlists.",
+    "size": 95,
+    "reviews": 11000000,
+    "ratingAvg": 4.8,
+    "downloads": 1000000000,
+    "category": "entertainment",
     "ratings": [
-      { "name": "1 star", "count": 80 },
-      { "name": "2 star", "count": 100 },
-      { "name": "3 star", "count": 400 },
-      { "name": "4 star", "count": 1800 },
-      { "name": "5 star", "count": 3620 }
+      { "name": "1 star", "count": 80000 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "4 star", "count": 2800000 },
+      { "name": "5 star", "count": 7520000 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/gmail.png",
+    "title": "Gmail",
+    "companyName": "Google LLC",
+    "description": "Email from Google. Organized inbox, smart reply, spam protection, and 15GB free storage.",
+    "size": 38,
+    "reviews": 9500000,
+    "ratingAvg": 4.4,
+    "downloads": 5000000000,
+    "category": "productivity",
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 700000 },
+      { "name": "4 star", "count": 3000000 },
+      { "name": "5 star", "count": 5500000 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/netflix.png",
+    "title": "Netflix",
+    "companyName": "Netflix Inc.",
+    "description": "Stream award-winning TV shows, movies, anime, documentaries, and more on any device.",
+    "size": 135,
+    "reviews": 8200000,
+    "ratingAvg": 4.6,
+    "downloads": 1000000000,
+    "category": "video",
+    "ratings": [
+      { "name": "1 star", "count": 90000 },
+      { "name": "2 star", "count": 130000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "4 star", "count": 2400000 },
+      { "name": "5 star", "count": 5080000 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/google-maps.png",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "description": "Navigate anywhere with real-time traffic, turn-by-turn directions, and local business reviews.",
+    "size": 120,
+    "reviews": 12000000,
+    "ratingAvg": 4.7,
+    "downloads": 5000000000,
+    "category": "utility",
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 600000 },
+      { "name": "4 star", "count": 3500000 },
+      { "name": "5 star", "count": 7650000 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/tiktok.png",
+    "title": "TikTok",
+    "companyName": "ByteDance Ltd.",
+    "description": "Create and discover short videos. Join a global community of creators and trending content.",
+    "size": 88,
+    "reviews": 16000000,
+    "ratingAvg": 4.8,
+    "downloads": 3000000000,
+    "category": "social",
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 250000 },
+      { "name": "3 star", "count": 900000 },
+      { "name": "4 star", "count": 4500000 },
+      { "name": "5 star", "count": 10150000 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/zoom.png",
+    "title": "Zoom",
+    "companyName": "Zoom Video",
+    "description": "Video meetings, webinars, and team chat. Connect and collaborate from anywhere seamlessly.",
+    "size": 70,
+    "reviews": 5000000,
+    "ratingAvg": 4.5,
+    "downloads": 500000000,
+    "category": "productivity",
+    "ratings": [
+      { "name": "1 star", "count": 60000 },
+      { "name": "2 star", "count": 80000 },
+      { "name": "3 star", "count": 350000 },
+      { "name": "4 star", "count": 1500000 },
+      { "name": "5 star", "count": 3010000 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/amazon.png",
+    "title": "Amazon Shopping",
+    "companyName": "Amazon.com",
+    "description": "Shop millions of products with fast delivery, easy returns, and exclusive Prime deals.",
+    "size": 65,
+    "reviews": 7000000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "category": "utility",
+    "ratings": [
+      { "name": "1 star", "count": 80000 },
+      { "name": "2 star", "count": 120000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "4 star", "count": 2200000 },
+      { "name": "5 star", "count": 4100000 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/snapchat.png",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "description": "Chat with snaps and stories, use AR lenses, and stay connected with close friends.",
+    "size": 62,
+    "reviews": 6500000,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
+    "category": "social",
+    "ratings": [
+      { "name": "1 star", "count": 150000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 700000 },
+      { "name": "4 star", "count": 2200000 },
+      { "name": "5 star", "count": 3250000 }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/microsoft-teams.png",
+    "title": "Microsoft Teams",
+    "companyName": "Microsoft Corp.",
+    "description": "Chat, meet, call, and collaborate in one place. Built for work and hybrid teams.",
+    "size": 100,
+    "reviews": 4200000,
+    "ratingAvg": 4.4,
+    "downloads": 500000000,
+    "category": "productivity",
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 80000 },
+      { "name": "3 star", "count": 320000 },
+      { "name": "4 star", "count": 1250000 },
+      { "name": "5 star", "count": 2500000 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/discord.png",
+    "title": "Discord",
+    "companyName": "Discord Inc.",
+    "description": "Your place for text, voice, and video chats with friends, gaming communities, and more.",
+    "size": 72,
+    "reviews": 3800000,
+    "ratingAvg": 4.7,
+    "downloads": 500000000,
+    "category": "social",
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 1100000 },
+      { "name": "5 star", "count": 2420000 }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/google-chrome.png",
+    "title": "Google Chrome",
+    "companyName": "Google LLC",
+    "description": "Fast, secure web browsing with Google's powerful search and seamless account sync.",
+    "size": 145,
+    "reviews": 10000000,
+    "ratingAvg": 4.6,
+    "downloads": 5000000000,
+    "category": "utility",
+    "ratings": [
+      { "name": "1 star", "count": 120000 },
+      { "name": "2 star", "count": 160000 },
+      { "name": "3 star", "count": 600000 },
+      { "name": "4 star", "count": 3000000 },
+      { "name": "5 star", "count": 6120000 }
     ]
   }
 ]
