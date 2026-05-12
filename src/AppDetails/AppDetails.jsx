@@ -72,7 +72,7 @@ const AppDetails = () => {
 
 
 
-                {/*  */}
+         
 
                 <div className="bg-white p-6 rounded-xl space-y-4">
                     <h2 className="text-xl font-semibold">Ratings</h2>
@@ -105,7 +105,6 @@ const AppDetails = () => {
                                         </div>
                                     ))}
 
-                                    {/* X-axis */}
                                     <div className="flex items-center gap-3 mt-1">
                                         <div className="w-12 flex-shrink-0" />
                                         <div className="flex-1 flex justify-between">
