@@ -21,9 +21,9 @@ const Card = ({ product }) => {
 
 
                 </div>
-                <div className="flex  justify-between px-5 pb-5">
-                    <div><button className='flex items-center gap-1 border rounded text-xs px-1'><img src={dowanload} alt="" className="h-3 " /> {(product.downloads) / 1000000}M</button></div>
-                    <div><button className='flex items-center gap-1 border rounded text-xs px-1'><img src={ratings} alt="" className="h-3 " /> {product.ratingAvg}</button></div>
+                <div className="flex  justify-between px-5 pb-5 ">
+                    <div><button className='flex items-center gap-1 border border-gray-400 rounded text-xs px-1'><img src={dowanload} alt="" className="h-3 " /> {(product.downloads) / 1000000}M</button></div>
+                    <div><button className='flex items-center gap-1 border rounded border-gray-400 text-xs px-1'><img src={ratings} alt="" className="h-3 " /> {product.ratingAvg}</button></div>
 
                 </div>
             </div>
