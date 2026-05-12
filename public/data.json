@@ -11,11 +11,26 @@
     "downloads": 5000000000,
     "category": "social",
     "ratings": [
-      { "name": "1 star", "count": 120000 },
-      { "name": "2 star", "count": 200000 },
-      { "name": "3 star", "count": 800000 },
-      { "name": "4 star", "count": 3200000 },
-      { "name": "5 star", "count": 9880000 }
+      {
+        "name": "1 star",
+        "count": 120000
+      },
+      {
+        "name": "2 star",
+        "count": 200000
+      },
+      {
+        "name": "3 star",
+        "count": 800000
+      },
+      {
+        "name": "4 star",
+        "count": 3200000
+      },
+      {
+        "name": "5 star",
+        "count": 9880000
+      }
     ]
   },
   {
@@ -30,11 +45,26 @@
     "downloads": 5000000000,
     "category": "social",
     "ratings": [
-      { "name": "1 star", "count": 200000 },
-      { "name": "2 star", "count": 300000 },
-      { "name": "3 star", "count": 1000000 },
-      { "name": "4 star", "count": 5000000 },
-      { "name": "5 star", "count": 13500000 }
+      {
+        "name": "1 star",
+        "count": 200000
+      },
+      {
+        "name": "2 star",
+        "count": 300000
+      },
+      {
+        "name": "3 star",
+        "count": 1000000
+      },
+      {
+        "name": "4 star",
+        "count": 5000000
+      },
+      {
+        "name": "5 star",
+        "count": 13500000
+      }
     ]
   },
   {
@@ -49,11 +79,26 @@
     "downloads": 5000000000,
     "category": "social",
     "ratings": [
-      { "name": "1 star", "count": 500000 },
-      { "name": "2 star", "count": 600000 },
-      { "name": "3 star", "count": 2000000 },
-      { "name": "4 star", "count": 6000000 },
-      { "name": "5 star", "count": 8900000 }
+      {
+        "name": "1 star",
+        "count": 500000
+      },
+      {
+        "name": "2 star",
+        "count": 600000
+      },
+      {
+        "name": "3 star",
+        "count": 2000000
+      },
+      {
+        "name": "4 star",
+        "count": 6000000
+      },
+      {
+        "name": "5 star",
+        "count": 8900000
+      }
     ]
   },
   {
@@ -68,11 +113,26 @@
     "downloads": 5000000000,
     "category": "video",
     "ratings": [
-      { "name": "1 star", "count": 300000 },
-      { "name": "2 star", "count": 400000 },
-      { "name": "3 star", "count": 1500000 },
-      { "name": "4 star", "count": 7000000 },
-      { "name": "5 star", "count": 15800000 }
+      {
+        "name": "1 star",
+        "count": 300000
+      },
+      {
+        "name": "2 star",
+        "count": 400000
+      },
+      {
+        "name": "3 star",
+        "count": 1500000
+      },
+      {
+        "name": "4 star",
+        "count": 7000000
+      },
+      {
+        "name": "5 star",
+        "count": 15800000
+      }
     ]
   },
   {
@@ -87,11 +147,26 @@
     "downloads": 1000000000,
     "category": "entertainment",
     "ratings": [
-      { "name": "1 star", "count": 80000 },
-      { "name": "2 star", "count": 100000 },
-      { "name": "3 star", "count": 500000 },
-      { "name": "4 star", "count": 2800000 },
-      { "name": "5 star", "count": 7520000 }
+      {
+        "name": "1 star",
+        "count": 80000
+      },
+      {
+        "name": "2 star",
+        "count": 100000
+      },
+      {
+        "name": "3 star",
+        "count": 500000
+      },
+      {
+        "name": "4 star",
+        "count": 2800000
+      },
+      {
+        "name": "5 star",
+        "count": 7520000
+      }
     ]
   },
   {
@@ -106,11 +181,26 @@
     "downloads": 5000000000,
     "category": "productivity",
     "ratings": [
-      { "name": "1 star", "count": 100000 },
-      { "name": "2 star", "count": 200000 },
-      { "name": "3 star", "count": 700000 },
-      { "name": "4 star", "count": 3000000 },
-      { "name": "5 star", "count": 5500000 }
+      {
+        "name": "1 star",
+        "count": 100000
+      },
+      {
+        "name": "2 star",
+        "count": 200000
+      },
+      {
+        "name": "3 star",
+        "count": 700000
+      },
+      {
+        "name": "4 star",
+        "count": 3000000
+      },
+      {
+        "name": "5 star",
+        "count": 5500000
+      }
     ]
   },
   {
@@ -125,11 +215,26 @@
     "downloads": 1000000000,
     "category": "video",
     "ratings": [
-      { "name": "1 star", "count": 90000 },
-      { "name": "2 star", "count": 130000 },
-      { "name": "3 star", "count": 500000 },
-      { "name": "4 star", "count": 2400000 },
-      { "name": "5 star", "count": 5080000 }
+      {
+        "name": "1 star",
+        "count": 90000
+      },
+      {
+        "name": "2 star",
+        "count": 130000
+      },
+      {
+        "name": "3 star",
+        "count": 500000
+      },
+      {
+        "name": "4 star",
+        "count": 2400000
+      },
+      {
+        "name": "5 star",
+        "count": 5080000
+      }
     ]
   },
   {
@@ -144,11 +249,26 @@
     "downloads": 5000000000,
     "category": "utility",
     "ratings": [
-      { "name": "1 star", "count": 100000 },
-      { "name": "2 star", "count": 150000 },
-      { "name": "3 star", "count": 600000 },
-      { "name": "4 star", "count": 3500000 },
-      { "name": "5 star", "count": 7650000 }
+      {
+        "name": "1 star",
+        "count": 100000
+      },
+      {
+        "name": "2 star",
+        "count": 150000
+      },
+      {
+        "name": "3 star",
+        "count": 600000
+      },
+      {
+        "name": "4 star",
+        "count": 3500000
+      },
+      {
+        "name": "5 star",
+        "count": 7650000
+      }
     ]
   },
   {
@@ -163,11 +283,26 @@
     "downloads": 3000000000,
     "category": "social",
     "ratings": [
-      { "name": "1 star", "count": 200000 },
-      { "name": "2 star", "count": 250000 },
-      { "name": "3 star", "count": 900000 },
-      { "name": "4 star", "count": 4500000 },
-      { "name": "5 star", "count": 10150000 }
+      {
+        "name": "1 star",
+        "count": 200000
+      },
+      {
+        "name": "2 star",
+        "count": 250000
+      },
+      {
+        "name": "3 star",
+        "count": 900000
+      },
+      {
+        "name": "4 star",
+        "count": 4500000
+      },
+      {
+        "name": "5 star",
+        "count": 10150000
+      }
     ]
   },
   {
@@ -182,11 +317,26 @@
     "downloads": 500000000,
     "category": "productivity",
     "ratings": [
-      { "name": "1 star", "count": 60000 },
-      { "name": "2 star", "count": 80000 },
-      { "name": "3 star", "count": 350000 },
-      { "name": "4 star", "count": 1500000 },
-      { "name": "5 star", "count": 3010000 }
+      {
+        "name": "1 star",
+        "count": 60000
+      },
+      {
+        "name": "2 star",
+        "count": 80000
+      },
+      {
+        "name": "3 star",
+        "count": 350000
+      },
+      {
+        "name": "4 star",
+        "count": 1500000
+      },
+      {
+        "name": "5 star",
+        "count": 3010000
+      }
     ]
   },
   {
@@ -201,11 +351,26 @@
     "downloads": 1000000000,
     "category": "utility",
     "ratings": [
-      { "name": "1 star", "count": 80000 },
-      { "name": "2 star", "count": 120000 },
-      { "name": "3 star", "count": 500000 },
-      { "name": "4 star", "count": 2200000 },
-      { "name": "5 star", "count": 4100000 }
+      {
+        "name": "1 star",
+        "count": 80000
+      },
+      {
+        "name": "2 star",
+        "count": 120000
+      },
+      {
+        "name": "3 star",
+        "count": 500000
+      },
+      {
+        "name": "4 star",
+        "count": 2200000
+      },
+      {
+        "name": "5 star",
+        "count": 4100000
+      }
     ]
   },
   {
@@ -220,11 +385,26 @@
     "downloads": 1000000000,
     "category": "social",
     "ratings": [
-      { "name": "1 star", "count": 150000 },
-      { "name": "2 star", "count": 200000 },
-      { "name": "3 star", "count": 700000 },
-      { "name": "4 star", "count": 2200000 },
-      { "name": "5 star", "count": 3250000 }
+      {
+        "name": "1 star",
+        "count": 150000
+      },
+      {
+        "name": "2 star",
+        "count": 200000
+      },
+      {
+        "name": "3 star",
+        "count": 700000
+      },
+      {
+        "name": "4 star",
+        "count": 2200000
+      },
+      {
+        "name": "5 star",
+        "count": 3250000
+      }
     ]
   },
   {
@@ -239,11 +419,26 @@
     "downloads": 500000000,
     "category": "productivity",
     "ratings": [
-      { "name": "1 star", "count": 50000 },
-      { "name": "2 star", "count": 80000 },
-      { "name": "3 star", "count": 320000 },
-      { "name": "4 star", "count": 1250000 },
-      { "name": "5 star", "count": 2500000 }
+      {
+        "name": "1 star",
+        "count": 50000
+      },
+      {
+        "name": "2 star",
+        "count": 80000
+      },
+      {
+        "name": "3 star",
+        "count": 320000
+      },
+      {
+        "name": "4 star",
+        "count": 1250000
+      },
+      {
+        "name": "5 star",
+        "count": 2500000
+      }
     ]
   },
   {
@@ -258,11 +453,26 @@
     "downloads": 500000000,
     "category": "social",
     "ratings": [
-      { "name": "1 star", "count": 30000 },
-      { "name": "2 star", "count": 50000 },
-      { "name": "3 star", "count": 200000 },
-      { "name": "4 star", "count": 1100000 },
-      { "name": "5 star", "count": 2420000 }
+      {
+        "name": "1 star",
+        "count": 30000
+      },
+      {
+        "name": "2 star",
+        "count": 50000
+      },
+      {
+        "name": "3 star",
+        "count": 200000
+      },
+      {
+        "name": "4 star",
+        "count": 1100000
+      },
+      {
+        "name": "5 star",
+        "count": 2420000
+      }
     ]
   },
   {
@@ -277,11 +487,505 @@
     "downloads": 5000000000,
     "category": "utility",
     "ratings": [
-      { "name": "1 star", "count": 120000 },
-      { "name": "2 star", "count": 160000 },
-      { "name": "3 star", "count": 600000 },
-      { "name": "4 star", "count": 3000000 },
-      { "name": "5 star", "count": 6120000 }
+      {
+        "name": "1 star",
+        "count": 120000
+      },
+      {
+        "name": "2 star",
+        "count": 160000
+      },
+      {
+        "name": "3 star",
+        "count": 600000
+      },
+      {
+        "name": "4 star",
+        "count": 3000000
+      },
+      {
+        "name": "5 star",
+        "count": 6120000
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "image": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/telegram.png",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "description": "Fast, secure, and private messaging with channels, bots, file sharing up to 2GB, and group chats.",
+    "size": 58,
+    "reviews": 9800000,
+    "ratingAvg": 4.7,
+    "downloads": 1000000000,
+    "category": "social",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 90000
+      },
+      {
+        "name": "2 star",
+        "count": 130000
+      },
+      {
+        "name": "3 star",
+        "count": 550000
+      },
+      {
+        "name": "4 star",
+        "count": 2800000
+      },
+      {
+        "name": "5 star",
+        "count": 6230000
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "image": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/linkedin.png",
+    "title": "LinkedIn",
+    "companyName": "Microsoft Corp.",
+    "description": "Connect with professionals, find jobs, share insights, and grow your career network worldwide.",
+    "size": 74,
+    "reviews": 6200000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "category": "social",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 110000
+      },
+      {
+        "name": "2 star",
+        "count": 160000
+      },
+      {
+        "name": "3 star",
+        "count": 620000
+      },
+      {
+        "name": "4 star",
+        "count": 2100000
+      },
+      {
+        "name": "5 star",
+        "count": 3210000
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "image": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/pinterest.png",
+    "title": "Pinterest",
+    "companyName": "Pinterest Inc.",
+    "description": "Discover ideas for recipes, home decor, fashion, travel, and more. Save and share inspiration boards.",
+    "size": 48,
+    "reviews": 4500000,
+    "ratingAvg": 4.5,
+    "downloads": 500000000,
+    "category": "social",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 55000
+      },
+      {
+        "name": "2 star",
+        "count": 80000
+      },
+      {
+        "name": "3 star",
+        "count": 390000
+      },
+      {
+        "name": "4 star",
+        "count": 1400000
+      },
+      {
+        "name": "5 star",
+        "count": 2575000
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "image": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/reddit.png",
+    "title": "Reddit",
+    "companyName": "Reddit Inc.",
+    "description": "The front page of the internet. Join communities, share content, vote, and discuss anything.",
+    "size": 56,
+    "reviews": 5300000,
+    "ratingAvg": 4.3,
+    "downloads": 500000000,
+    "category": "social",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 100000
+      },
+      {
+        "name": "2 star",
+        "count": 150000
+      },
+      {
+        "name": "3 star",
+        "count": 550000
+      },
+      {
+        "name": "4 star",
+        "count": 1800000
+      },
+      {
+        "name": "5 star",
+        "count": 2700000
+      }
+    ]
+  },
+  
+  {
+    "id": 21,
+    "image": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/slack.png",
+    "title": "Slack",
+    "companyName": "Salesforce Inc.",
+    "description": "Team messaging and collaboration platform. Channels, file sharing, integrations, and video calls.",
+    "size": 68,
+    "reviews": 3600000,
+    "ratingAvg": 4.5,
+    "downloads": 500000000,
+    "category": "productivity",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 45000
+      },
+      {
+        "name": "2 star",
+        "count": 65000
+      },
+      {
+        "name": "3 star",
+        "count": 280000
+      },
+      {
+        "name": "4 star",
+        "count": 1150000
+      },
+      {
+        "name": "5 star",
+        "count": 2060000
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "image": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/dropbox.png",
+    "title": "Dropbox",
+    "companyName": "Dropbox Inc.",
+    "description": "Store, sync, and share files across devices. Access your documents anywhere with 2GB free storage.",
+    "size": 44,
+    "reviews": 2900000,
+    "ratingAvg": 4.3,
+    "downloads": 500000000,
+    "category": "productivity",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 55000
+      },
+      {
+        "name": "2 star",
+        "count": 75000
+      },
+      {
+        "name": "3 star",
+        "count": 300000
+      },
+      {
+        "name": "4 star",
+        "count": 950000
+      },
+      {
+        "name": "5 star",
+        "count": 1520000
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "image": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/paypal.png",
+    "title": "PayPal",
+    "companyName": "PayPal Holdings",
+    "description": "Send money, pay online, and manage your finances. Fast, safe transfers in 200+ countries.",
+    "size": 60,
+    "reviews": 5100000,
+    "ratingAvg": 4.4,
+    "downloads": 500000000,
+    "category": "utility",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 80000
+      },
+      {
+        "name": "2 star",
+        "count": 110000
+      },
+      {
+        "name": "3 star",
+        "count": 430000
+      },
+      {
+        "name": "4 star",
+        "count": 1700000
+      },
+      {
+        "name": "5 star",
+        "count": 2780000
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "image": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/duolingo.png",
+    "title": "Duolingo",
+    "companyName": "Duolingo Inc.",
+    "description": "Learn 40+ languages for free with fun, bite-sized lessons, streaks, and gamified challenges.",
+    "size": 52,
+    "reviews": 8400000,
+    "ratingAvg": 4.8,
+    "downloads": 500000000,
+    "category": "entertainment",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 70000
+      },
+      {
+        "name": "2 star",
+        "count": 90000
+      },
+      {
+        "name": "3 star",
+        "count": 420000
+      },
+      {
+        "name": "4 star",
+        "count": 2300000
+      },
+      {
+        "name": "5 star",
+        "count": 5520000
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "image": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/google-drive.png",
+    "title": "Google Drive",
+    "companyName": "Google LLC",
+    "description": "Store, share, and collaborate on files and folders. 15GB free cloud storage synced across devices.",
+    "size": 36,
+    "reviews": 7600000,
+    "ratingAvg": 4.6,
+    "downloads": 5000000000,
+    "category": "productivity",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 85000
+      },
+      {
+        "name": "2 star",
+        "count": 120000
+      },
+      {
+        "name": "3 star",
+        "count": 490000
+      },
+      {
+        "name": "4 star",
+        "count": 2300000
+      },
+      {
+        "name": "5 star",
+        "count": 4605000
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "image": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/microsoft-outlook.png",
+    "title": "Outlook",
+    "companyName": "Microsoft Corp.",
+    "description": "Manage email, calendar, and contacts in one app. Smart inbox, scheduling, and Teams integration.",
+    "size": 85,
+    "reviews": 4800000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "category": "productivity",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 65000
+      },
+      {
+        "name": "2 star",
+        "count": 95000
+      },
+      {
+        "name": "3 star",
+        "count": 390000
+      },
+      {
+        "name": "4 star",
+        "count": 1550000
+      },
+      {
+        "name": "5 star",
+        "count": 2700000
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "image": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/twitch.png",
+    "title": "Twitch",
+    "companyName": "Amazon.com",
+    "description": "Watch and stream live gaming, music, and creative content. Chat with millions of live communities.",
+    "size": 90,
+    "reviews": 4100000,
+    "ratingAvg": 4.6,
+    "downloads": 500000000,
+    "category": "video",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 48000
+      },
+      {
+        "name": "2 star",
+        "count": 65000
+      },
+      {
+        "name": "3 star",
+        "count": 280000
+      },
+      {
+        "name": "4 star",
+        "count": 1250000
+      },
+      {
+        "name": "5 star",
+        "count": 2457000
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "image": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/notion.png",
+    "title": "Notion",
+    "companyName": "Notion Labs Inc.",
+    "description": "All-in-one workspace for notes, tasks, wikis, and databases. Collaborate and organize everything.",
+    "size": 47,
+    "reviews": 2700000,
+    "ratingAvg": 4.7,
+    "downloads": 100000000,
+    "category": "productivity",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 30000
+      },
+      {
+        "name": "2 star",
+        "count": 45000
+      },
+      {
+        "name": "3 star",
+        "count": 195000
+      },
+      {
+        "name": "4 star",
+        "count": 790000
+      },
+      {
+        "name": "5 star",
+        "count": 1640000
+      }
+    ]
+  },
+
+  
+  {
+    "id": 31,
+    "image": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/google-photos.png",
+    "title": "Google Photos",
+    "companyName": "Google LLC",
+    "description": "Back up, organize, and share your photos and videos with AI-powered search and memories.",
+    "size": 42,
+    "reviews": 6900000,
+    "ratingAvg": 4.6,
+    "downloads": 5000000000,
+    "category": "utility",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 80000
+      },
+      {
+        "name": "2 star",
+        "count": 115000
+      },
+      {
+        "name": "3 star",
+        "count": 470000
+      },
+      {
+        "name": "4 star",
+        "count": 2100000
+      },
+      {
+        "name": "5 star",
+        "count": 4135000
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "image": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/apple-music.png",
+    "title": "Apple Music",
+    "companyName": "Apple Inc.",
+    "description": "Stream 100 million songs, radio stations, and exclusive content. Ad-free listening on all devices.",
+    "size": 78,
+    "reviews": 4300000,
+    "ratingAvg": 4.7,
+    "downloads": 500000000,
+    "category": "entertainment",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 45000
+      },
+      {
+        "name": "2 star",
+        "count": 65000
+      },
+      {
+        "name": "3 star",
+        "count": 280000
+      },
+      {
+        "name": "4 star",
+        "count": 1260000
+      },
+      {
+        "name": "5 star",
+        "count": 2650000
+      }
     ]
   }
 ]

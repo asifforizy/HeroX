@@ -21,10 +21,12 @@ const Navbar = () => {
                             <NavLink to="/installation"><a>Installation</a></NavLink>
                         </ul>
                     </div>
-                    <div className='flex items-center '>
-                        <img src={Logo} alt="logo" className='w-10' />
-                        <a className="btn btn-ghost text-xl">HeroX</a>
-                    </div>
+                    <NavLink to="/">
+                        <div className='flex items-center '>
+                            <img src={Logo} alt="logo" className='w-10' />
+                            <a className="btn btn-ghost text-xl">HeroX</a>
+                        </div>
+                    </NavLink>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 gap-10">
@@ -34,7 +36,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white px-6 py-2 rounded-lg font-semibold shadow-md hover:scale-105 transition-all duration-300"><FaGithub className='text-xl'></FaGithub>  Contribute</a>
+                    <a href="https://github.com/asifforizy" className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white px-6 py-2 rounded-lg font-semibold shadow-md hover:scale-105 transition-all duration-300"><FaGithub className='text-xl'></FaGithub>  Contribute</a>
                 </div>
             </div>
         </div>
