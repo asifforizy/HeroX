@@ -61,12 +61,24 @@ const Apps = () => {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 my-20">
                 {
-                    filteredApps.map(product => (
-                        <Card
-                            key={product.id}
-                            product={product}
-                        />
-                    ))
+                    filteredApps.length > 0 ? (
+                        filteredApps.map(product => (
+                            <Card
+                                key={product.id}
+                                product={product}
+                            />
+                        ))
+                    ) : (
+                        <div className="col-span-full text-center py-10">
+                            <h1 className="text-4xl font-bold text-red-500">
+                                No Apps Found
+                            </h1>
+
+                            <p className="text-gray-500 mt-2">
+                                Try searching with another name
+                            </p>
+                        </div>
+                    )
                 }
             </div>
         </div>

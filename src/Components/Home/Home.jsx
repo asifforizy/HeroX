@@ -6,8 +6,8 @@ import { NavLink, useLoaderData } from 'react-router';
 import Card from '../Card/Card';
 
 const Home = () => {
-    const data = useLoaderData()
-    console.log(data)
+    const data = useLoaderData();
+    console.log(data);
     return (
         <div className="px-4 sm:px-6 lg:px-12">
 
@@ -109,13 +109,12 @@ const Home = () => {
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 my-20">
                 {
-                    data.slice(0, 8).map(product => (
+                    data?.slice(0,8).map((product) => (
                         <Card
                             key={product.id}
                             product={product}
                         />
-                    ))
-                }
+                    ))}
             </div>
 
 
