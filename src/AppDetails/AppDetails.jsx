@@ -37,7 +37,7 @@ const AppDetails = () => {
             <div className="flex flex-col items-center justify-center  gap-4 h-screen">
                 <h1 className="text-7xl font-bold text-red-500">App Not Found</h1>
                 <p className="text-gray-500">The app you are looking for does not exist.</p>
-                <a href="/apps" className="btn btn-primary">Back to Apps</a>
+                <link href="/apps" className="btn btn-primary">Back to Apps</link>
             </div>
         );
     }
@@ -77,7 +77,7 @@ const AppDetails = () => {
                             <div className=" ">
                                 <img src={download} alt="" className='w-5' />
                                 <p className="text-sm text-gray-500">Downloads</p>
-                                <p className="text-green-600 text-xl font-bold">{singleAppDetails.downloads / 1000000}M</p>
+                                <p className="text-green-600 text-xl font-bold">{singleAppDetails.downloads/ 1000000}M</p>
                             </div>
 
                             <div className="">
