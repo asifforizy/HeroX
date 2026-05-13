@@ -3,14 +3,28 @@ import { useLoaderData, useParams } from 'react-router';
 import download from '../assets/icon-downloads.png'
 import star from '../assets/icon-ratings.png'
 import reviews from '../assets/icon-review.png'
+import { toast } from 'react-toastify';
 
 
 const AppDetails = () => {
+
+
+
+
+
     const { id } = useParams()
     const data = useLoaderData()
-    console.log(id)
     const singleAppDetails = data.find(app => app.id == id);
     console.log(singleAppDetails)
+
+
+    const handleInstall = () => {
+        toast.success("Install Successfully!");
+    }
+
+
+
+
     return (
         <div>
             <div className="max-w-6xl mx-auto p-4 md:p-8 space-y-8">
@@ -30,7 +44,7 @@ const AppDetails = () => {
                     <div className="flex-1 space-y-3">
 
                         <h1 className="text-2xl font-bold text-gray-800">
-                            {singleAppDetails.title }
+                            {singleAppDetails.title}
                         </h1>
 
                         <p className="text-sm text-gray-500">
@@ -60,7 +74,7 @@ const AppDetails = () => {
 
                         </div>
 
-                        <button className="mt-4 bg-green-400 hover:bg-green-500 text-white px-6 py-2 rounded-lg font-medium">
+                        <button onClick={handleInstall}  className="mt-4 bg-green-400 hover:bg-green-500 text-white px-6 py-2 rounded-lg font-medium">
                             Install Now ({singleAppDetails.size} MB)
                         </button>
                     </div>
@@ -72,7 +86,7 @@ const AppDetails = () => {
 
 
 
-         
+
 
                 <div className="bg-white p-6 rounded-xl space-y-4">
                     <h2 className="text-xl font-semibold">Ratings</h2>
@@ -138,4 +152,4 @@ const AppDetails = () => {
     );
 };
 
-export default AppDetails;
+export default AppDetails;  

@@ -5,6 +5,7 @@ import Home from '../Components/Home/Home';
 import Apps from '../Components/App/Apps';
 import Installation from '../Components/Installation/Installation';
 import AppDetails from '../AppDetails/AppDetails';
+import ErrorPage from '../Pages/ErrorPage/ErrorPage';
 
 
 
@@ -12,7 +13,7 @@ const router = createBrowserRouter([
     {
         path: "/",
         Component: Root,
-        hydrateFallbackElement: <div>Loading...</div>,
+        errorElement: <ErrorPage></ErrorPage>,
         children: [
             {
                 path: '/',

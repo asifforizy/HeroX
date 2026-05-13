@@ -2,7 +2,7 @@ import React from 'react';
 import play from '../../assets/playstore.png';
 import app from '../../assets/appsstore.png';
 import heroImg from '../../assets/hero.png';
-import { NavLink, useLoaderData } from 'react-router';
+import { Link, NavLink, useLoaderData } from 'react-router';
 import Card from '../Card/Card';
 
 const Home = () => {
@@ -30,15 +30,22 @@ const Home = () => {
 
             <div className="flex flex-row items-center justify-center gap-3 sm:gap-4 mb-10">
 
-                <button className="flex items-center gap-2 border px-3 py-2 text-sm sm:text-base rounded-lg border-[#627382] hover:bg-gray-100 transition">
-                    <img src={play} alt="Google Play" className="w-5" />
-                    <span>Play Store</span>
-                </button>
+                <Link to="https://play.google.com/store/apps?pli=1">
+                    <button className="flex items-center gap-2 border px-3 py-2 text-sm sm:text-base rounded-lg border-[#627382] hover:bg-gray-100 transition">
+                        <img src={play} alt="Google Play" className="w-5" />
+                        <span>Play Store</span>
+                    </button>
+                </Link>
 
-                <button className="flex items-center gap-2 border px-3 py-2 text-sm sm:text-base rounded-lg border-[#627382] hover:bg-gray-100 transition">
-                    <img src={app} alt="App Store" className="w-5" />
-                    <span>App Store</span>
-                </button>
+
+                <Link to="https://www.apple.com/app-store/">
+                    <button className="flex items-center gap-2 border px-3 py-2 text-sm sm:text-base rounded-lg border-[#627382] hover:bg-gray-100 transition">
+                        <img src={app} alt="App Store" className="w-5" />
+                        <span>App Store</span>
+                    </button>
+                </Link>
+
+
 
             </div>
 
@@ -109,7 +116,7 @@ const Home = () => {
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 my-20">
                 {
-                    data?.slice(0,8).map((product) => (
+                    data?.slice(0, 8).map((product) => (
                         <Card
                             key={product.id}
                             product={product}

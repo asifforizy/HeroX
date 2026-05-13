@@ -6,6 +6,18 @@ const Apps = () => {
     const data = useLoaderData();
 
     const [search, setSearch] = useState("");
+    const [loading, setLoading] = useState(false);
+
+    const handleSearch = (e) => {
+        const value = e.target.value;
+
+        setLoading(true);
+
+        setTimeout(() => {
+            setSearch(value);
+            setLoading(false);
+        }, 100); 
+    };
 
     const filteredApps = data.filter(app =>
         app.title.toLowerCase().includes(search.toLowerCase())
@@ -53,23 +65,36 @@ const Apps = () => {
                             type="search"
                             placeholder="Search"
                             value={search}
-                            onChange={(e) => setSearch(e.target.value)}
+                            onChange={handleSearch}
                         />
                     </label>
                 </div>
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 my-20">
+
                 {
-                    filteredApps.length > 0 ? (
+                    loading ? (
+
+                        <div className="col-span-full flex justify-center items-center py-20">
+
+                            <span className="loading loading-spinner loading-lg text-primary"></span>
+
+                        </div>
+
+                    ) : filteredApps.length > 0 ? (
+
                         filteredApps.map(product => (
                             <Card
                                 key={product.id}
                                 product={product}
                             />
                         ))
+
                     ) : (
+
                         <div className="col-span-full text-center py-10">
+
                             <h1 className="text-4xl font-bold text-red-500">
                                 No Apps Found
                             </h1>
@@ -77,9 +102,12 @@ const Apps = () => {
                             <p className="text-gray-500 mt-2">
                                 Try searching with another name
                             </p>
+
                         </div>
+
                     )
                 }
+
             </div>
         </div>
     );
