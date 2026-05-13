@@ -49,7 +49,7 @@ const AppDetails = () => {
         <div>
             <div className="max-w-6xl mx-auto p-4 md:p-8 space-y-8">
 
-                <div className="flex flex-col md:flex-row gap-6 bg-white p-6 rounded-xl ">
+                <div className="flex flex-col md:flex-row gap-6 p-6 rounded-xl ">
 
 
                     <div className="flex-shrink-0 flex justify-center md:justify-start">
@@ -63,11 +63,11 @@ const AppDetails = () => {
 
                     <div className="flex-1 space-y-3">
 
-                        <h1 className="text-2xl font-bold text-gray-800">
+                        <h1 className="text-2xl font-bold">
                             {singleAppDetails.title}
                         </h1>
 
-                        <p className="text-sm text-gray-500">
+                        <p className="text-sm">
                             Developed by : <span className="text-blue-600">{singleAppDetails.companyName}</span>
                         </p>
                         <hr className="text-gray-400" />
@@ -76,19 +76,19 @@ const AppDetails = () => {
 
                             <div className=" ">
                                 <img src={download} alt="" className='w-5' />
-                                <p className="text-sm text-gray-500">Downloads</p>
+                                <p className="text-sm">Downloads</p>
                                 <p className="text-green-600 text-xl font-bold">{singleAppDetails.downloads/ 1000000}M</p>
                             </div>
 
                             <div className="">
                                 <img src={star} alt="" className='w-5' />
-                                <p className="text-sm text-gray-500">Avg Rating</p>
+                                <p className="text-sm ">Avg Rating</p>
                                 <p className="text-orange-500 text-xl font-bold">{singleAppDetails.ratingAvg}</p>
                             </div>
 
                             <div className="">
                                 <img src={reviews} alt="" className='w-5' />
-                                <p className="text-sm text-gray-500">Reviews</p>
+                                <p className="text-sm ">Reviews</p>
                                 <p className="text-purple-600 text-xl font-bold">{singleAppDetails.reviews / 1000}K</p>
                             </div>
 
@@ -116,7 +116,7 @@ const AppDetails = () => {
 
 
 
-                <div className="bg-white p-6 rounded-xl space-y-4">
+                <div className=" p-6 rounded-xl space-y-4">
                     <h2 className="text-xl font-semibold">Ratings</h2>
 
                     {(() => {
@@ -135,7 +135,7 @@ const AppDetails = () => {
                                             <span className="w-12 text-sm text-gray-600 text-right flex-shrink-0">
                                                 {rating.name}
                                             </span>
-                                            <div className="flex-1 bg-gray-100 h-8 rounded-sm overflow-hidden">
+                                            <div className="flex-1 bg-gray-200 h-8 rounded-sm overflow-hidden">
                                                 <div
                                                     className="h-8 bg-orange-400 rounded-sm transition-all duration-500"
                                                     style={{ width: `${(rating.count / maxCount) * 100}%` }}
@@ -165,10 +165,10 @@ const AppDetails = () => {
                 </div>
                 <hr className="w-full text-gray-400" />
 
-                <div className="bg-white p-6 rounded-xl  space-y-4">
+                <div className=" p-6 rounded-xl  space-y-4">
                     <h2 className="text-xl font-semibold">Description</h2>
 
-                    <p className="text-gray-600 leading-relaxed">
+                    <p className="0 leading-relaxed">
                         {singleAppDetails.description}
                     </p>
 
