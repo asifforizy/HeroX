@@ -6,6 +6,8 @@ import Apps from '../Components/App/Apps';
 import Installation from '../Components/Installation/Installation';
 import AppDetails from '../AppDetails/AppDetails';
 import ErrorPage from '../Pages/ErrorPage/ErrorPage';
+import { getInstalledApps } from '../utils/storage';
+
 
 
 
@@ -17,7 +19,7 @@ const router = createBrowserRouter([
         children: [
             {
                 path: '/',
-           
+
                 loader: () => fetch('/data.json'),
                 Component: Home,
             },
@@ -33,7 +35,7 @@ const router = createBrowserRouter([
             },
             {
                 path: '/installation',
-                index: true,
+                loader: () => getInstalledApps(),
                 Component: Installation,
             },
 

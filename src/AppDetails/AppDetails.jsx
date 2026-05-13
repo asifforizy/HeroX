@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useLoaderData, useParams } from 'react-router';
 import download from '../assets/icon-downloads.png'
 import star from '../assets/icon-ratings.png'
 import reviews from '../assets/icon-review.png'
 import { toast } from 'react-toastify';
+import { getInstalledApps, saveApp } from '../Utils/storage';
 
 
 const AppDetails = () => {
@@ -15,11 +16,30 @@ const AppDetails = () => {
     const { id } = useParams()
     const data = useLoaderData()
     const singleAppDetails = data.find(app => app.id == id);
-    console.log(singleAppDetails)
 
+    const [isInstalled, setIsInstalled] = useState(
+        () => getInstalledApps().some(a => a.id == singleAppDetails?.id)
+    );
 
     const handleInstall = () => {
-        toast.success("Install Successfully!");
+        const result = saveApp(singleAppDetails);
+        if (result.success) {
+            setIsInstalled(true);
+            toast.success(result.message);
+        }
+
+
+    };
+
+
+    if (!singleAppDetails) {
+        return (
+            <div className="flex flex-col items-center justify-center  gap-4 h-screen">
+                <h1 className="text-7xl font-bold text-red-500">App Not Found</h1>
+                <p className="text-gray-500">The app you are looking for does not exist.</p>
+                <a href="/apps" className="btn btn-primary">Back to Apps</a>
+            </div>
+        );
     }
 
 
@@ -57,7 +77,7 @@ const AppDetails = () => {
                             <div className=" ">
                                 <img src={download} alt="" className='w-5' />
                                 <p className="text-sm text-gray-500">Downloads</p>
-                                <p className="text-green-600 text-xl font-bold">8M</p>
+                                <p className="text-green-600 text-xl font-bold">{singleAppDetails.downloads / 1000000}M</p>
                             </div>
 
                             <div className="">
@@ -74,8 +94,16 @@ const AppDetails = () => {
 
                         </div>
 
-                        <button onClick={handleInstall}  className="mt-4 bg-green-400 hover:bg-green-500 text-white px-6 py-2 rounded-lg font-medium">
-                            Install Now ({singleAppDetails.size} MB)
+                        <button
+                            onClick={!isInstalled ? handleInstall : undefined}
+                            disabled={isInstalled}
+                            className={`mt-4 px-6 py-2 rounded-lg font-medium text-white transition-colors
+            ${isInstalled
+                                    ? 'bg-gray-400 cursor-not-allowed'
+                                    : 'bg-green-400 hover:bg-green-500 cursor-pointer'
+                                }`}
+                        >
+                            {isInstalled ? 'Installed' : `Install Now (${singleAppDetails.size} MB)`}
                         </button>
                     </div>
 
