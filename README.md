@@ -1,6 +1,6 @@
 # HeroX App Store 🚀
 
-Live Demo: https://heroxapp.netlify.app/apps
+Live Demo: https://heroxapp.netlify.app/
 
 ## 📌 Project Overview
 
