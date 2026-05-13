@@ -39,7 +39,8 @@ const Installation = () => {
                 Explore All Trending Apps on the Market developed by us
             </p>
 
-            <div className="flex justify-end">
+            <div className="flex justify-between items-center">
+                <h1 className='font-semibold'>Selected Apps ({sortedApps.length})</h1>
                 <select
                     value={sortOrder}
                     onChange={e => setSortOrder(e.target.value)}
