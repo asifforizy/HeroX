@@ -25,7 +25,6 @@ const Installation = () => {
             <div className="flex flex-col items-center justify-center min-h-screen gap-4 px-4 text-center">
                 <h1 className="text-2xl sm:text-4xl font-bold text-gray-500">No Apps Installed</h1>
                 <p className="text-gray-400 text-sm sm:text-base">Go install some apps first!</p>
-                <a href="/apps" className="btn btn-primary">Browse Apps</a>
             </div>
         );
     }
